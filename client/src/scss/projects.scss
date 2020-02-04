@@ -1,0 +1,173 @@
+@import 'assets';
+
+#project-section {
+    background: $grey;
+    padding: 50px 0 0 0;
+    margin: 0;
+}
+
+.projects-header {
+    font-family: $serif2;
+    font-size: 35px;
+    font-weight: 400;
+    color: $black;
+    text-align: center;
+    padding-top: 25px;
+}
+.project-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-holder {
+    width: 45%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-decoration: none;
+    img {
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+}
+.about-project-holder {
+    width: 90%;
+}
+.project-title {
+    font-family: $sans-serif;
+    font-size: 30px;
+    color: $dark-grey;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+.project-framework {
+    font-family: $serif;
+    font-size: 23px;
+    font-style: italic;
+    color: $dark-grey;
+    margin: 0;
+    padding: 0;
+}
+.project-description {
+    font-family: $serif;
+    font-size: 20px;
+    color: $light-grey;
+    margin: 0;
+    padding: 0;
+}
+.cta-button {
+    font-family: $cursive;
+    font-size: 20px;
+    color: $blue2;
+    text-decoration: none;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    position: relative;
+}
+.cta-button:hover {
+    transform: scale(1.05) translateX(15px);
+}
+
+.site-image-holder {
+    position: relative;
+    width: auto;
+    height: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+    .projects-header {
+        font-size: 30px;
+    }
+    .project-title {
+        font-size: 25px;
+    }
+    .project-framework {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .project-container {
+        flex-flow: column;
+    }
+    .project-holder {
+        width: 90%;
+        max-width: 600px;
+    }
+    .project-title {
+        font-size: 23px;
+    }
+    .projects-header {
+        font-size: 25px;
+    }
+    .project-framework {
+        font-size: 18px;
+    }
+    .project-description {
+        font-size: 18px;
+    }
+    .cta-button {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .project-title {
+        font-size: 21px;
+    }
+    .projects-header {
+        font-size: 23px;
+    }
+    .project-framework {
+        font-size: 17px;
+    }
+    .project-description {
+        font-size: 17px;
+    }
+    .cta-button {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .project-title {
+        font-size: 20px;
+    }
+    .projects-header {
+        font-size: 22px;
+    }
+    .project-framework {
+        font-size: 16px;
+    }
+    .project-description {
+        font-size: 16px;
+    }
+    .cta-button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .project-title {
+        font-size: 19px;
+    }
+    .projects-header {
+        font-size: 21px;
+    }
+    .project-framework {
+        font-size: 15px;
+    }
+    .project-description {
+        font-size: 15px;
+    }
+    .cta-button {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2200.61 888.7">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        isolation: isolate;
+      }
+
+      .c {
+        clip-path: url(#a);
+      }
+
+      .d {
+        fill: url(#b);
+      }
+
+      .e, .f, .g, .h, .i {
+        mix-blend-mode: overlay;
+      }
+
+      .e {
+        fill: url(#c);
+      }
+
+      .f {
+        fill: url(#d);
+      }
+
+      .g {
+        fill: url(#e);
+      }
+
+      .h {
+        fill: url(#f);
+      }
+
+      .i {
+        fill: url(#g);
+      }
+    </style>
+    <clipPath id="a" transform="translate(804.16 175.89)">
+      <rect class="a" width="841.89" height="595.28"/>
+    </clipPath>
+    <radialGradient id="b" cx="1225.1" cy="473.53" r="511.69" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#bebebe"/>
+    </radialGradient>
+    <linearGradient id="c" x1="1397.84" y1="174.09" x2="1105.34" y2="466.59" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="d" x1="1858.32" y1="174.09" x2="1565.82" y2="466.59" xlink:href="#c"/>
+    <linearGradient id="e" x1="724.84" y1="332.06" x2="888.35" y2="168.56" xlink:href="#c"/>
+    <linearGradient id="f" x1="883.84" y1="750.54" x2="1249.09" y2="385.29" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#666"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <linearGradient id="g" x1="1638.3" y1="216.56" x2="1225.02" y2="629.85" xlink:href="#f"/>
+  </defs>
+  <title>grey_minimal_background</title>
+  <g class="b">
+    <g class="c">
+      <rect class="d" x="804.16" y="175.89" width="841.89" height="595.28"/>
+      <g>
+        <polygon class="e" points="515.03 888.71 1403.74 0 1740.13 0 851.43 888.71 515.03 888.71"/>
+        <polygon class="f" points="975.51 888.71 1864.21 0 2200.61 0 1311.9 888.71 975.51 888.71"/>
+        <polygon class="g" points="0 888.71 888.71 0 1225.1 0 336.39 888.71 0 888.71"/>
+        <polygon class="h" points="577.47 888.71 1466.18 0 1802.57 0 913.87 888.71 577.47 888.71"/>
+        <polygon class="i" points="797.96 888.71 1686.67 0 2023.06 0 1134.36 888.71 797.96 888.71"/>
+      </g>
+    </g>
+  </g>
+</svg>
