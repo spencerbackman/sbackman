@@ -1,12 +1,20 @@
 import React from 'react';
 import mlhsv from './images/mlhsv.png';
+import mlhsvW from './images/webp/mlhsv.webp';
 import localgrenada from './images/localgrenada2.png';
+import localGrenadaW from './images/webp/localgrenada2.webp';
 import deltaFowlers from './images/deltafowlers.png';
+import deltaW from './images/webp/deltafowlers.webp';
 import grenadaBadBoys from './images/grenadaBadBoys.png';
+import gbbW from './images/webp/grenadaBadBoys.webp'
 import ndori from './images/ndori.png';
+import ndoriW from './images/webp/ndori.webp'
 import wemakeads from './images/wemakeads.png';
+import wemakeadsW from './images/webp/wemakeads.webp'
 import sellittome from './images/sellittome.png';
+import sellittomeW from './images/webp/sellittome.webp'
 import woodsLogging from './images/woodsLogging.png';
+import woodsLoggingW from './images/webp/woodsLogging.webp';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import './scss/projects.css';
@@ -21,7 +29,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a href="https://www.sellittome.com" target="_blank" rel="noopener noreferrer" className="site=image-holder">
-                            <img src={sellittome} alt="Sell It To Me"/>
+                            <picture>
+                                <source srcSet={sellittomeW} type="image/webp" />
+                                <img src={sellittome} alt="Sell It To Me"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade left>
@@ -43,7 +54,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder" href="https://www.mylocalhuntsville.com" target="_blank" rel="noopener noreferrer">
-                            <img src={mlhsv} alt="My Local Huntsville"/>
+                            <picture>
+                                <source srcSet={mlhsvW} type="image/webp" />
+                                <img src={mlhsv} alt="My Local Huntsville"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade right>
@@ -65,7 +79,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a href="https://www.brentwoodsloggingequipmentsales.com" target="_blank" rel="noopener noreferrer" className="site-image-holder">
-                            <img src={woodsLogging} alt="Brent Woods Logging Equipment Sales"/>
+                            <picture>
+                                <source srcSet={woodsLoggingW} type="image/webp" />
+                                <img src={woodsLogging} alt="Brent Woods Logging Equipment Sales"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade left>
@@ -87,7 +104,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder" href="https://www.wemakeads.com" target="_blank" rel="noopener noreferrer">
-                            <img src={wemakeads} alt="Whitfield Media"/>
+                            <picture>
+                                <source srcSet={wemakeadsW} type="image/webp" />
+                                <img src={wemakeads} alt="Whitfield Media"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade right>
@@ -109,7 +129,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder" href="https://www.localgrenada.com" target="_blank" rel="noopener noreferrer">
-                            <img src={localgrenada} alt="localgrenada.com"/>
+                            <picture>
+                                <source srcSet={localGrenadaW} type="image/webp" />
+                                <img src={localgrenada} alt="localgrenada.com"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade left>
@@ -126,7 +149,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder" href="https://deltafowlers.com" target="_blank" rel="noopener noreferrer">
-                            <img src={deltaFowlers} alt="Delta Fowlers Apparel"/>
+                            <picture>
+                                <source srcSet={deltaW} type="image/webp" />
+                                <img src={deltaFowlers} alt="Delta Fowlers Apparel"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade right>
@@ -148,7 +174,10 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder"  href="https://www.grenadabadboys.net" target="_blank" rel="noopener noreferrer">
-                            <img src={grenadaBadBoys} alt="Grenada Bad Boys"/>
+                            <picture>
+                                <source srcSet={gbbW} type="image/webp" />
+                                <img src={grenadaBadBoys} alt="Grenada Bad Boys"/>
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade left>
@@ -177,7 +206,10 @@ function Projects() {
                             href="https://ndori.org" 
                             target="_blank" 
                             rel="noopener noreferrer">
-                            <img src={ndori} alt="The National Diabetes & Obesity Research Institute"/>            
+                            <picture>
+                                <source srcSet={ndoriW} type="image/webp" />
+                                <img src={ndori} alt="The National Diabetes & Obesity Research Institute"/>    
+                            </picture>
                         </a>
                     </Zoom>
                     <Fade right>

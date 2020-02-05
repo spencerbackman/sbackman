@@ -1,5 +1,6 @@
 import React from 'react';
 import portrait from './images/portrait.jpg';
+import portraitW from './images/webp/portrait.webp';
 import { Link } from 'react-router-dom';
 import './scss/home.css';
 
@@ -7,9 +8,12 @@ function Home() {
     return (
         <div className="container">
             <section className="header-section">
-                <img src={portrait} 
-                    className="portrait" 
-                    alt="Portrait of me"/>
+                <picture>
+                    <source srcSet={portraitW} type="img/webp"/>
+                    <img src={portrait} 
+                        className="portrait" 
+                        alt="Portrait of me"/>
+                </picture>
                 <h1 className="header"> 
                     <span>S</span>
                     <span>p</span>
