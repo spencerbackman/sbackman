@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Spectral:300,400,400i,500,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=BioRhyme|Inconsolata|Nunito|Rubik&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600|Spectral:400,500,600&display=swap");
 .contact-page {
   display: flex;
   flex-flow: column;
@@ -20,7 +19,7 @@
 }
 
 .contact-par {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   color: #5a515a;
   width: 90%;
@@ -46,13 +45,13 @@
 }
 
 .contact-label {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: #3a313a;
 }
 
 .input {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   color: #5a515a;
   width: 100%;
@@ -65,7 +64,7 @@
   color: #f5f5f5;
   background: #3a313a;
   border: none;
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   height: auto;
   width: auto;

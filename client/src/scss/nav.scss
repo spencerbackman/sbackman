@@ -1,8 +1,5 @@
 @import 'assets';
-@font-face {
-    font-family: 'Sailor Rough';
-    src: url(../fonts/SAILORROUGHRegular.woff2) format(woff 2.0);
-}
+
 .navbar {
     width: calc(100% - 100px);
     height: 50px;
@@ -21,13 +18,13 @@
 }
 
 .nav-header {
-    font-family: $cursive;
+    font-family: $serif;
     color: $white;
     font-size: 30px;
     position: absolute;
-    font-weight: 300;
+    font-weight: 600;
     left: 25px;
-    top: -25px;
+    top: -23px;
 }
 .nav-link-container {
     display: flex;
@@ -37,7 +34,7 @@
     align-items: center;
 }
 .nav-link {
-    font-family: $sans-serif;
+    font-family: $sans;
     color: $white;
     font-size: 20px;
     padding: 0 30px;

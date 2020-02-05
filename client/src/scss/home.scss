@@ -40,12 +40,12 @@
 }
 .header {
     z-index: 5;
-    font-family: $sans3;
+    font-family: $sans;
     font-size: 40px;
     text-align: center;
     margin: 15px 0 0 0;
     padding: 10px 0;
-    font-weight: bold;
+    font-weight: 700;
     color: $blue;
     span {
         display: inline-block;
@@ -53,16 +53,16 @@
         transform: translate(-150px, -50px) rotate(-180deg) scale(3);
         animation: revolveScale .4s forwards;
         color: $dark-grey;
-        font-weight: 500;
+        font-weight: 600;
     }
 }
 .header2 {
     z-index: 5;
-    font-family: $sans-serif;
+    font-family: $sans;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin: 0;
-    padding: 10px 0 60px 0;
+    padding: 10px 0 30px 0;
     color: $blue;
     font-size: 30px;
     span {
@@ -74,7 +74,7 @@
     }
 }
 .home-par {
-    font-family: $sans-serif;
+    font-family: $sans;
     font-size: 25px;
     color: $light-grey;
     width: auto;
@@ -258,7 +258,7 @@
 
 
 .home-resume-link {
-    font-family: $sans-serif;
+    font-family: $sans;
     font-size: 23px;
     color: $white;
     font-weight: 500;

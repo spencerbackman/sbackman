@@ -1,9 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Spectral:300,400,400i,500,600&display=swap");
-@import url("https://fonts.googleapis.com/css?family=BioRhyme|Inconsolata|Nunito|Rubik&display=swap");
-@font-face {
-  font-family: "Sailor Rough";
-  src: url(../fonts/SAILORROUGHRegular.woff2) format(woff 2);
-}
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600|Spectral:400,500,600&display=swap");
 .navbar {
   width: calc(100% - 100px);
   height: 50px;
@@ -22,13 +17,13 @@
 }
 
 .nav-header {
-  font-family: "BioRhyme", sans-serif;
+  font-family: "Spectral", serif;
   color: #f5f5f5;
   font-size: 30px;
   position: absolute;
-  font-weight: 300;
+  font-weight: 600;
   left: 25px;
-  top: -25px;
+  top: -23px;
 }
 
 .nav-link-container {
@@ -40,7 +35,7 @@
 }
 
 .nav-link {
-  font-family: "Nunito", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #f5f5f5;
   font-size: 20px;
   padding: 0 30px;
