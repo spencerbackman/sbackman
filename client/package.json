@@ -7,14 +7,10 @@
     "node-sass": "^4.13.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-pose": "^4.0.8",
-    "react-pose-text": "^3.1.0",
     "react-reveal": "^1.2.2",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.3.0",
-    "react-scroll-into-view": "^1.7.0",
-    "splitting": "^1.0.6",
-    "use-smooth-scroll": "^1.1.1"
+    "react-scroll-into-view": "^1.7.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,7 +32,9 @@
   },
   "description": "Spencer Backman's Personal Portfolio.",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "terser-brunch": "^4.0.0"
+  },
   "author": "Spencer Bakman",
   "license": "ISC",
   "proxy": "http://localhost:3200"

@@ -9,7 +9,7 @@
     text-align: center;
     color: $black;
     font-family: $serif;
-    font-weight: $light;
+    font-weight: 400;
     cursor: pointer;
     width: 100%;
     position: relative;
@@ -46,7 +46,7 @@
     text-align: center;
     margin: 15px 0 0 0;
     padding: 10px 0;
-    font-weight: 700;
+    font-weight: 600;
     color: $blue;
     span {
         display: inline-block;
@@ -54,7 +54,6 @@
         transform: translate(-150px, -50px) rotate(-180deg) scale(3);
         animation: revolveScale .4s forwards;
         color: $dark-grey;
-        font-weight: 600;
     }
 }
 .header2 {
