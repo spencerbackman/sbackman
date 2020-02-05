@@ -109,7 +109,7 @@ function Projects() {
                 <div className="project-holder">
                     <Zoom>
                         <a className="site-image-holder" href="https://www.localgrenada.com" target="_blank" rel="noopener noreferrer">
-                            <img src={localgrenada} alt="Local Grenada"/>
+                            <img src={localgrenada} alt="localgrenada.com"/>
                         </a>
                     </Zoom>
                     <Fade left>
