@@ -40,22 +40,23 @@ export default function App() {
                 <div className={state.isToggled ? "nav-link-container nav-toggled" : "nav-link-container nav-closed"}>
                     <ScrollTo alignToTop={true} selector="#aboutComponent"> 
                         <button onClick={() => dispatch({ type: 'close' })} className="nav-link">
-                            About 
+                            About Me
                         </button>
                     </ScrollTo> 
                     <ScrollTo alignToTop={true} selector="#projectComponent">
                         <button onClick={() => dispatch({ type: 'close' })} className="nav-link">
-                            Projects
+                            My Projects
                         </button>
                     </ScrollTo>
                     <ScrollTo alignToTop={true} selector="#contactComponent">
                         <button onClick={() => dispatch({ type: 'close' })} className="nav-link">
-                            Contact
+                            Contact Me
                         </button>
                     </ScrollTo>
                     <a onClick={() => dispatch({ type: 'close' })}
                         className="nav-link" 
                         href="https://www.linkedin.com/in/spencer-backman-b89826157/" 
+                        aria-label="Check out my Linkedin Profile"
                         target="_blank" 
                         rel="noreferrer noopener"> 
                         <i className="fab fa-linkedin-in"></i> 
@@ -63,6 +64,7 @@ export default function App() {
                     <a onClick={() => dispatch({ type: 'close' })}
                         className="nav-link" 
                         href="https://github.com/spencerbackman" 
+                        aria-label="Check out my Github Profile"
                         target="_blank" 
                         rel="noreferrer noopener"> 
                         <i className="fab fa-github"></i> 

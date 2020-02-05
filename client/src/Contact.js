@@ -31,37 +31,36 @@ export default function Contact() {
             </p>
             <form className="contact-form" onSubmit={handleSubmit}>
                 <div className="contact-row">
-                    <label htmlFor="name" className="contact-label">
+                    <label className="contact-label">
                         Name*
-                    </label>
-                    <input type="text"
-                        className="input"
-                        onChange={(e) => setName(e.target.value)}
-                        placeholder="Name"
-                        value={name}
+                        <input type="text"
+                            className="input"
+                            onChange={(e) => setName(e.target.value)}
+                            value={name}
                         />
+                    </label>
                 </div>
                 <div className="contact-row">
                     <label htmlFor="email" className="contact-label">
                         Email*
-                    </label>
-                    <input type="text"
-                        className="input"
-                        onChange={(e) => setEmail(e.target.value)}
-                        placeholder="Email"
-                        value={email}
+                        <input type="text"
+                            className="input"
+                            onChange={(e) => setEmail(e.target.value)}
+                            value={email}
                         />
+                    </label>
+
                 </div>
                 <div className="contact-row">
                     <label htmlFor="message" className="contact-label">
                         Message/Questions
-                    </label>
-                    <textarea type="text"
-                        className="input"
-                        onChange={(e) => setMessage(e.target.value)}
-                        placeholder="Message"
-                        value={message}
+                        <textarea type="text"
+                            className="input"
+                            onChange={(e) => setMessage(e.target.value)}
+                            value={message}
                         />
+                    </label>
+
                 </div>
                 <button className="form-button">
                     <i className="far fa-paper-plane"></i>

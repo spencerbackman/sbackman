@@ -66,6 +66,7 @@ function Home() {
                 <div className="home-logo-holder">
                     <a className="home-logo-link"
                         href="https://github.com/spencerbackman" 
+                        aria-label="Check out my Github Profile"
                         target="_blank" 
                         rel="noreferrer noopener">
                         <i className="fab fa-github-square home-logo"
@@ -74,6 +75,7 @@ function Home() {
                     </a>
                     <a className="home-logo-link" 
                         href="https://www.linkedin.com/in/spencer-backman-b89826157/" 
+                        aria-label="Check out my Linkedin Profile"
                         target="_blank" 
                         rel="noreferrer noopener">
                         <i className="fab fa-linkedin home-logo" 

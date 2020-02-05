@@ -1,4 +1,21 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600|Spectral:400,500,600&display=swap");
+@font-face {
+  font-family: "spectral";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Spectral:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+  font-display: swap;
+}
 .container {
   background: #f5f5f5;
   height: 100vh;
@@ -14,6 +31,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  background-image: url("../images/webp/grey_minimal_background.webp");
   background: url("../images/grey_minimal_background.png");
   background-size: cover;
   background-position: center;

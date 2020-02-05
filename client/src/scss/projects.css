@@ -1,6 +1,23 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600|Spectral:400,500,600&display=swap");
+@font-face {
+  font-family: "spectral";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Spectral:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+  font-display: swap;
+}
 #project-section {
-  background: #e2e2e2;
+  background: #f1f1f1;
   padding: 50px 0 0 0;
   margin: 0;
 }
@@ -71,7 +88,7 @@
 .cta-button {
   font-family: "Spectral", serif;
   font-size: 20px;
-  color: #1b8ed1;
+  color: #001FFF;
   text-decoration: none;
   display: flex;
   flex-flow: row;

@@ -142,7 +142,9 @@ function Projects() {
                             <p className="project-description"> 
                                 Local Grenada is a part of Whitfield Media, is a website about Grenada, Ms and to help promote it.
                             </p>
-                            <a href="https://www.localgrenada.com" target="_blank" rel="noopener noreferrer" className="cta-button"> Learn More </a>
+                            <a href="https://www.localgrenada.com" target="_blank" rel="noopener noreferrer" className="cta-button"> 
+                                localgrenada.com
+                            </a>
                         </div>
                     </Fade>
                 </div>

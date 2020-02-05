@@ -1,3 +1,20 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600|Spectral:400,500,600&display=swap");
+@font-face {
+  font-family: "spectral";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Spectral:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  src: url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+  font-display: swap;
+}
 
 /*# sourceMappingURL=assets.css.map */
