@@ -2,6 +2,7 @@ import React from 'react';
 import portrait from './images/portrait.jpg';
 import portraitW from './images/webp/portrait.webp';
 import { Link } from 'react-router-dom';
+import resume from "./images/Spencer_Backman's_Resume.pdf"
 import './scss/home.css';
 
 function Home() {
@@ -82,9 +83,9 @@ function Home() {
                             id="linkedin-home">
                         </i>
                     </a>
-                    <Link className="home-resume-link" to="/resume">
+                    <a href={resume} className="home-resume-link">
                         Resume
-                    </Link>
+                    </a>
                 </div>
             </section>
         </div>

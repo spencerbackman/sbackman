@@ -13,7 +13,6 @@ app.use(express.static(path.join(__dirname, "client", "build")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(morgan('dev'));
-
 app.use(cors());
 
 const transporter = nodemailer.createTransport({

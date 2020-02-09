@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './scss/contact.css';
+import './scss/contact.scss';
 
 export default function Contact() {
     let [ name, setName ] = useState('');
@@ -60,7 +60,6 @@ export default function Contact() {
                             value={message}
                         />
                     </label>
-
                 </div>
                 <button className="form-button">
                     <i className="far fa-paper-plane"></i>

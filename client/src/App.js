@@ -1,4 +1,4 @@
-import React, { useReducer } from 'react';
+import React, { useReducer, useState } from 'react';
 import './scss/styles.scss';
 import Projects from './Projects';
 import Home from './Home';
@@ -8,9 +8,7 @@ import ScrollTo from 'react-scroll-into-view';
 import './scss/nav.css';
 
 const initialState = { isToggled: false }
-
 function reducer(state, action) {
-
     switch(action.type) {
         case 'toggle':
             return { isToggled: !state.isToggled };
@@ -20,9 +18,9 @@ function reducer(state, action) {
             throw new Error();
     }
 }
-     
+
 export default function App() {
-    const [ state, dispatch ] = useReducer(reducer, initialState)
+    const [ state, dispatch ] = useReducer(reducer, initialState) 
     return (
         <div id="app-container">
             <div className="navbar">
