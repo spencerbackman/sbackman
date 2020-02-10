@@ -13,7 +13,7 @@ export default function About() {
                     I build, design, maintain, and optimize websites for clients.  
                     The frameworks and tools I use include React, Node, Sass, Express, MongoDB, Adobe (Illustrator, Photoshop, & XD), and Google (Analytics, Adwords & Webmaster Tools).  
                     <br/> <br/>
-                    I follow best practices in web design to keep the interface simple, user intuitive, and responsive.  I value learning and I challenge myself to learn more everyday.  I make intelligent decisions to keep my work organized, maintainable and fast. 
+                    I follow best practices in web design to keep the interface simple, user-intuitive, and responsive.  I value learning and I challenge myself to learn more every day.  I make intelligent decisions to keep my work organized, maintainable and fast. 
                 </p>
                 <div className="about-container">
                     <h2 className="about-header2">
